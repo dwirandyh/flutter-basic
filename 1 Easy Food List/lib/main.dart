@@ -5,35 +5,15 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
 
-//class MyApp extends StatelessWidget {
-//  // This widget is the root of your application.
-//  @override
-//  Widget build(BuildContext context) {
-//    return MaterialApp(
-//      title: 'Flutter Demo',
-//      theme: ThemeData(
-//          brightness: Brightness.dark,
-//          primarySwatch: Colors.blue,
-//          accentColor: Colors.deepOrangeAccent),
-////      home: AuthPage(),
-//      routes: {
-//        // untuk default route, namun harus menghapus property home: Page()
-//        '/': (BuildContext context) => ProductPage(),
-//        '/admin': (BuildContext context) => ProductAdminPage()
-//      },
-//    );
-//  }
-//}
-
 class MyApp extends StatefulWidget {
   @override
   _MyAppState createState() => _MyAppState();
 }
 
 class _MyAppState extends State<MyApp> {
-  List<Map<String, String>> _products = [];
+  List<Map<String, dynamic>> _products = [];
 
-  void _addProduct(Map<String, String> product) {
+  void _addProduct(Map<String, dynamic> product) {
     setState(() {
       _products.add(product);
     });
@@ -58,10 +38,11 @@ class _MyAppState extends State<MyApp> {
         // untuk default route, namun harus menghapus property home: Page()
         '/': (BuildContext context) => ProductPage(
               products: _products,
+            ),
+        '/admin': (BuildContext context) => ProductAdminPage(
               addProduct: _addProduct,
               deleteProduct: _deleteProduct,
-            ),
-        '/admin': (BuildContext context) => ProductAdminPage()
+            )
       },
       onGenerateRoute: (RouteSettings settings) {
         final List<String> pathElements = settings.name.split('/');
@@ -81,11 +62,8 @@ class _MyAppState extends State<MyApp> {
       },
       onUnknownRoute: (RouteSettings settings) {
         return MaterialPageRoute(
-            builder: (BuildContext context) => ProductPage(
-                  products: _products,
-                  addProduct: _addProduct,
-                  deleteProduct: _deleteProduct,
-                ));
+            builder: (BuildContext context) =>
+                ProductPage(products: _products));
       },
     );
   }
