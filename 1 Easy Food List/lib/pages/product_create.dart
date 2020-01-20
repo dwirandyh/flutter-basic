@@ -46,7 +46,10 @@ class _ProductCreatePage extends State<ProductCreatePage> {
               });
             },
           ),
+          SizedBox(height: 20.0),
           RaisedButton(
+            color: Theme.of(context).accentColor,
+            textColor: Colors.white,
             child: Text('Save'),
             onPressed: () {
               final Map<String, dynamic> product = {
@@ -56,6 +59,8 @@ class _ProductCreatePage extends State<ProductCreatePage> {
                 'price': priceValue
               };
               widget.addProduct(product);
+
+              Navigator.pushReplacementNamed(context, '/');
             },
           )
         ],
