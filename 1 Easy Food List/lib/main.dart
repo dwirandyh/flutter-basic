@@ -1,3 +1,4 @@
+import 'package:firstapp/pages/auth.dart';
 import 'package:firstapp/pages/product.dart';
 import 'package:firstapp/pages/product_admin.dart';
 import 'package:firstapp/pages/product_detail.dart';
@@ -33,10 +34,10 @@ class _MyAppState extends State<MyApp> {
           brightness: Brightness.light,
           primarySwatch: Colors.blue,
           accentColor: Colors.deepOrangeAccent),
-//      home: AuthPage(),
+      home: AuthPage(),
       routes: {
         // untuk default route, namun harus menghapus property home: Page()
-        '/': (BuildContext context) => ProductPage(
+        '/a': (BuildContext context) => ProductPage(
               products: _products,
             ),
         '/admin': (BuildContext context) => ProductAdminPage(
