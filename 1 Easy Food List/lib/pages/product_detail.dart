@@ -54,9 +54,9 @@ class ProductDetailPage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               Image.asset(imageUrl),
-              SizedBox(height: 30.0),
-              Text('Details Page'),
-              SizedBox(height: 20.0),
+              Container(
+                  padding: EdgeInsets.only(top: 10.0),
+                  child: Text('Details Page')),
               RaisedButton(
                 child: Text('Delete Item'),
                 onPressed: () {

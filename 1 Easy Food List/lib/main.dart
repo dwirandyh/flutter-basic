@@ -4,7 +4,9 @@ import 'package:firstapp/pages/product_admin.dart';
 import 'package:firstapp/pages/product_detail.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(MyApp());
+}
 
 class MyApp extends StatefulWidget {
   @override
@@ -31,13 +33,17 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-          brightness: Brightness.light,
-          primarySwatch: Colors.blue,
-          accentColor: Colors.deepOrangeAccent),
-      home: AuthPage(),
+        brightness: Brightness.light,
+        primarySwatch: Colors.blue,
+        accentColor: Colors.deepOrangeAccent,
+        // Font Family untuk keseluruhan app
+//          fontFamily: 'Oswald'
+      ),
+//      home: AuthPage(),
       routes: {
         // untuk default route, namun harus menghapus property home: Page()
-        '/a': (BuildContext context) => ProductPage(
+        '/': (BuildContext context) => AuthPage(),
+        '/product': (BuildContext context) => ProductPage(
               products: _products,
             ),
         '/admin': (BuildContext context) => ProductAdminPage(
