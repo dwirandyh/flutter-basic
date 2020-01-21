@@ -1,4 +1,4 @@
-#Mon Jan 20 16:50:04 WIB 2020
+#Mon Jan 20 22:09:51 WIB 2020
 base.0=/mnt/3ED2BC9963EDBC1C/\#My Lab/Android Development/Flutter/flutter-basic/1 Easy Food List/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
-renamed.0=classes.dex
+renamed.0=classes2.dex
