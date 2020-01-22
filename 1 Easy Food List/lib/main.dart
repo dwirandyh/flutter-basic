@@ -49,6 +49,7 @@ class _MyAppState extends State<MyApp> {
         '/admin': (BuildContext context) => ProductAdminPage(
               addProduct: _addProduct,
               deleteProduct: _deleteProduct,
+              products: _products,
             )
       },
       onGenerateRoute: (RouteSettings settings) {
