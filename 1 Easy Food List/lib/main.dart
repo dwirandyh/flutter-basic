@@ -63,6 +63,8 @@ class _MyAppState extends State<MyApp> {
               builder: (BuildContext context) => ProductDetailPage(
                     title: _products[index]['title'],
                     imageUrl: _products[index]['image'],
+                    price: _products[index]['price'],
+                    description: _products[index]['description'],
                   ));
         }
         return null;
