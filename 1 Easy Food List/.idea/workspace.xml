@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6659d005-8362-42e0-8bb9-a9d8ae838fc0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/auth.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/auth.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/pages/product_create.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/product_create.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/product/products.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/product/products.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,29 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="1846c841" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/pages/auth.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/widgets/product/products.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/pages/product_create.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="79" column="49" lean-forward="true" selection-start-line="79" selection-start-column="49" selection-end-line="79" selection-end-column="49" />
+            <state relative-caret-position="390">
+              <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -118,26 +99,6 @@
               <item name="1 Easy Food List" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1 Easy Food List" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1 Easy Food List" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="widgets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1 Easy Food List" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1 Easy Food List" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="widgets" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1 Easy Food List" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1 Easy Food List" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="widgets" type="462c0819:PsiDirectoryNode" />
-              <item name="ui_elements" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -221,8 +182,8 @@
       <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.32874355" />
       <window_info anchor="bottom" id="Run" order="1" weight="0.32874355" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32874355" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37005162" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.32874355" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.37005162" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32874355" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32874355" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32874355" />
@@ -232,7 +193,7 @@
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.32954547" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Flutter Inspector" order="3" weight="0.2439394" />
+      <window_info anchor="right" id="Flutter Inspector" order="3" visible="true" weight="0.2439394" />
       <window_info anchor="right" id="Flutter Outline" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Flutter Performance" order="6" side_tool="true" weight="0.32954547" />
@@ -402,10 +363,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Flutter/flutter_sdk/flutter/packages/flutter/lib/src/material/text_form_field.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="107" column="25" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/pages/product_create.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="79" column="49" lean-forward="true" selection-start-line="79" selection-start-column="49" selection-end-line="79" selection-end-column="49" />
+        <state relative-caret-position="390">
+          <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
         </state>
       </provider>
     </entry>
