@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6659d005-8362-42e0-8bb9-a9d8ae838fc0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/pages/product_create.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/product_create.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/pages/product_create.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+            <state relative-caret-position="128">
+              <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -62,15 +60,15 @@
         <option value="$PROJECT_DIR$/lib/pages/product.dart" />
         <option value="$PROJECT_DIR$/lib/widgets/product/product_card.dart" />
         <option value="$PROJECT_DIR$/lib/pages/product_admin.dart" />
-        <option value="$PROJECT_DIR$/lib/pages/auth.dart" />
         <option value="$PROJECT_DIR$/lib/widgets/product/products.dart" />
+        <option value="$PROJECT_DIR$/lib/pages/auth.dart" />
         <option value="$PROJECT_DIR$/lib/pages/product_create.dart" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="571" />
-    <option name="y" value="293" />
+    <option name="x" value="147" />
+    <option name="y" value="331" />
     <option name="width" value="865" />
     <option name="height" value="531" />
   </component>
@@ -182,7 +180,7 @@
       <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.32874355" />
       <window_info anchor="bottom" id="Run" order="1" weight="0.32874355" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32874355" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.37005162" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.37005162" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32874355" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32874355" />
@@ -193,7 +191,7 @@
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.32954547" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Flutter Inspector" order="3" visible="true" weight="0.2439394" />
+      <window_info anchor="right" id="Flutter Inspector" order="3" weight="0.3931624" />
       <window_info anchor="right" id="Flutter Outline" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Flutter Performance" order="6" side_tool="true" weight="0.32954547" />
@@ -238,6 +236,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/pages/product_create.dart</url>
+          <line>76</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lib/product_control.dart" />
@@ -349,13 +358,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/auth.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/widgets/product/products.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -370,10 +372,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/auth.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/pages/product_create.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+        <state relative-caret-position="128">
+          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
         </state>
       </provider>
     </entry>
