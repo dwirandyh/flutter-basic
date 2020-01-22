@@ -1,4 +1,4 @@
-import 'package:firstapp/product_manager.dart';
+import 'package:firstapp/widgets/product/products.dart';
 import 'package:flutter/material.dart';
 
 class ProductPage extends StatelessWidget {
@@ -30,7 +30,7 @@ class ProductPage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Easy List'),
       ),
-      body: ProductManager(products: products),
+      body: Products(products: products),
     );
   }
 }

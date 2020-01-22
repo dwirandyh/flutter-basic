@@ -60,7 +60,7 @@ class _ProductCreatePage extends State<ProductCreatePage> {
               };
               widget.addProduct(product);
 
-              Navigator.pushReplacementNamed(context, '/');
+              Navigator.pushReplacementNamed(context, '/product');
             },
           )
         ],
