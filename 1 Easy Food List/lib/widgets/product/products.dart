@@ -29,7 +29,6 @@ class Products extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListView.builder(
-        itemCount: products.length, itemBuilder: _buildProductItem);
+    return _buildProductList();
   }
 }
