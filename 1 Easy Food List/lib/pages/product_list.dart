@@ -3,9 +3,10 @@ import 'package:flutter/material.dart';
 
 class ProductListPage extends StatelessWidget {
   final Function updateProduct;
+  final Function(int index) deleteProduct;
   final List<Map<String, dynamic>> products;
 
-  ProductListPage(this.products, this.updateProduct);
+  ProductListPage(this.products, this.updateProduct, this.deleteProduct);
 
   @override
   Widget build(BuildContext context) {
@@ -17,6 +18,16 @@ class ProductListPage extends StatelessWidget {
             background: Container(
               color: Colors.red,
             ),
+            onDismissed: (DismissDirection direction) {
+              if (direction == DismissDirection.endToStart) {
+                print('Swiped right to left');
+                deleteProduct(index);
+              } else if (direction == DismissDirection.startToEnd) {
+                print('Swiped right to left');
+              } else {
+                print('other swiping');
+              }
+            },
             child: Column(
               children: <Widget>[
                 ListTile(

@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class ProductAdminPage extends StatelessWidget {
   final Function addProduct;
   final Function updateProduct;
-  final Function deleteProduct;
+  final Function(int productIndex) deleteProduct;
   final List<Map<String, dynamic>> products;
 
   ProductAdminPage(
@@ -58,10 +58,7 @@ class ProductAdminPage extends StatelessWidget {
         body: TabBarView(
           children: <Widget>[
             ProductEditPage(addProduct: addProduct),
-            ProductListPage(
-              products,
-              updateProduct,
-            )
+            ProductListPage(products, updateProduct, deleteProduct)
           ],
         ),
       ),
