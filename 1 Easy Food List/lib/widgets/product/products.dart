@@ -1,4 +1,3 @@
-import 'package:firstapp/widgets/product/price_tag.dart';
 import 'package:firstapp/widgets/product/product_card.dart';
 import 'package:flutter/material.dart';
 
@@ -16,10 +15,8 @@ class Products extends StatelessWidget {
     if (products.length > 0) {
       productCards = ListView.builder(
           itemCount: products.length,
-          itemBuilder: (BuildContext context, int index) => ProductCard(
-                product: products[index],
-                productIndex: index,
-              ));
+          itemBuilder: (BuildContext context, int index) =>
+              _buildProductItem(context, index));
     } else {
       productCards = Container();
     }
